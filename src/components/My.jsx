@@ -1,8 +1,6 @@
 function My () {
     return (
-        <div>
-            hola
-        </div>
+        <div></div>
     )
 }
 
