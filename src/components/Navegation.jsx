@@ -4,7 +4,7 @@ function Navegation () {
 
     return (
         <div className='flex flex-col justify-center items-center h-screen relative m-0 p-0'>
-            <div className='w-full flex justify-end absolute top-10 right-10'>
+            <div className='flex justify-end items-center text-1xl absolute top-10 right-10'>
                 <nav>
                     <ul className="flex gap-10">
                         <li><a href="">Inicio</a></li>
@@ -14,7 +14,7 @@ function Navegation () {
                     </ul>
                 </nav>
             </div>
-            <div className='flex justify-center items-center gap-10'>
+            <div className='flex justify-center items-center mt-[-100px]  gap-10'>
                 <div>
                     <div className='text-4xl'>
                         <p>Hola</p>
