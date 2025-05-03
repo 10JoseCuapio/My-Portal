@@ -20,7 +20,7 @@ function My () {
             <div className="flex flex-col gap-10 p-12 md:-m-10 -mt-20">
                 <h1 className="text-4xl mt-20"> Experencia con... </h1>
                 <div>
-                    <div className="flex justify-center gap-5 md:gap-52">
+                    <div className="flex justify-center gap-5 sm:gap-28 md:gap-52">
                         <div className="flex flex-col justify-center items-center">
                             <img className="w-20" src="./html.png" alt="" />
                             <p>HTML</p>
@@ -34,7 +34,7 @@ function My () {
                             <p>JavaScript</p>
                         </div>
                     </div>
-                    <div className="flex justify-center gap-5 md:gap-32 mt-10">
+                    <div className="flex justify-center gap-5 sm:gap-20 md:gap-32 mt-10">
                         <div className="flex flex-col justify-center items-center">
                             <img className="w-20" src="./git.png" alt="" />
                             <p>Git</p>
@@ -48,7 +48,7 @@ function My () {
                             <p>Bootstrap</p>
                         </div>
                     </div>
-                    <div className="flex justify-center gap-5 md:gap-52 mt-10">
+                    <div className="flex justify-center gap-5 sm:gap-28 md:gap-52 mt-10">
                         <div className="flex flex-col justify-center items-center">
                             <img className="w-20" src="./laravel.png" alt="" />
                             <p>Laravel</p>
