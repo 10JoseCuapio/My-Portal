@@ -1,12 +1,19 @@
 import { useEffect, useState } from 'react';
+import My from './My';
 
 function Navegation () {
     const [open, setOpen] = useState(false);
     const toggleMenu = () => setOpen(!open);
 
+    if (open) {
+        document.body.style.overflow = 'hidden';
+      } else {
+        document.body.style.overflow = 'auto';
+      }
 
     return (
-        <div className='flex flex-col justify-center items-center min-h-screen relative m-0 p-0 overflow-x-hidden'>
+        <main className=' overflow-x-hidden'>
+            <section className='flex flex-col justify-center items-center min-h-screen relative m-0 p-0 overflow-x-hidden'>
             <div className='flex justify-end items-center text-1xl absolute top-5 right-5 z-20'>
                 <button onClick={toggleMenu} className='block sm:hidden'>
                     <img className='w-10' src="./Menu.png" alt="" />
@@ -53,7 +60,14 @@ function Navegation () {
                     </button>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section className="min-h-screen flex flex-col justify-center items-center">
+    <My />
+  </section>
+
+        </main>
+        
     )
 }
 

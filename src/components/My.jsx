@@ -1,7 +1,7 @@
 function My () {
     return (
-        <div className="flex flex-col justify-center items-center min-h-screen">
-            <div className="flex flex-col justify-center gap-10 p-12">
+        <section className="flex flex-col justify-center items-center min-h-screen">
+            <div className="flex flex-col justify-center gap-10 p-12 -mt-14">
                 <h1 className="text-4xl">Sobre mi...</h1>
                 <div className="md:flex justify-center items-center gap-10">
                     <div className="grid justify-center">
@@ -17,7 +17,7 @@ function My () {
                 </div>
             </div>
            
-            <div className="flex flex-col gap-10 p-12 md:-m-10 -mt-20">
+            <div className="flex flex-col gap-10 p-12">
                 <h1 className="text-4xl mt-20"> Experencia con... </h1>
                 <div>
                     <div className="flex justify-center gap-5 sm:gap-28 md:gap-52">
@@ -64,7 +64,7 @@ function My () {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
