@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import My from './My';
+import Habilidades from './habilidades';
 
 function Navegation () {
     const [open, setOpen] = useState(false);
@@ -33,8 +34,8 @@ function Navegation () {
                     <nav>
                         <ul className="flex gap-10">
                             <li><a href="">Inicio</a></li>
-                            <li><a href="">Acerca de</a></li>
-                            <li><a href="">Servicios</a></li>
+                            <li><a href="">Sobre mi</a></li>
+                            <li><a href="">Habilidades</a></li>
                             <li><a href="">Contacto</a></li>
                         </ul>
                     </nav>
@@ -62,8 +63,13 @@ function Navegation () {
             </section>
 
             <section className="flex flex-col justify-center items-center">
-                <My />
+                < My/>
             </section>
+
+            <section className='flex flex-col justify-center items-center'>
+                < Habilidades/>
+            </section>
+
         </main> 
     )
 }
