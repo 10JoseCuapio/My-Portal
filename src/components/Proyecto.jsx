@@ -46,9 +46,9 @@ function Proyecto () {
                             <img className='rounded-lg' src="./my-portal.png" alt="" />
                         </button>
                         <div className='flex mt-3 gap-2'>
-                            <button>
+                            <a href='https://github.com/10JoseCuapio/My-Portal' target="_blank" rel="noopener noreferrer">
                                 <img className='w-6' src="./github.png" alt="" />
-                            </button>
+                            </a>
                         </div>
                     </div>
                     {/* Proyecto de chatbot */}
@@ -82,9 +82,9 @@ function Proyecto () {
                             <img className='rounded-lg' src="./whispeper.png" alt="" />
                         </button>
                         <div className='flex mt-3 gap-2'>
-                            <button>
+                            <a href='https://github.com/10JoseCuapio/Whispeper' target="_blank" rel="noopener noreferrer">
                                 <img className='w-6' src="./github.png" alt="" />
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -126,9 +126,9 @@ function Proyecto () {
                             <img className='rounded-lg' src="./Equestre.png" alt="" />
                         </button>
                         <div className='flex mt-3 gap-2'>
-                            <button>
+                            <a href='https://equestre.com.mx' target="_blank" rel="noopener noreferrer">
                                 <img className='w-6' src="./web.png" alt="" />
-                            </button>
+                            </a>
                         </div>
                     </div>
                     <div className='w-72 border shadow-md p-4 rounded-lg relative'>
@@ -160,9 +160,9 @@ function Proyecto () {
                             <img className='rounded-lg' src="./canirac.png" alt="" />
                         </button>
                         <div className='flex mt-3 gap-2'>
-                            <button>
+                            <a href='https://caniracvalledetoluca.org' target="_blank" rel="noopener noreferrer">
                                 <img className='w-6' src="./web.png" alt="" />
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
