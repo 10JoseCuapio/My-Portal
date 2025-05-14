@@ -106,8 +106,8 @@ function Proyecto () {
                                 </div>
                                 <div className='flex justify-center items-center mt-5 text-center border shadow-md rounded-lg'>
                                     <p className='p-2'>
-                                        Este proyecto es reservaciones, <br />
-                                        a eventos relacionados con caballos.<br />
+                                        Este proyecto de reservaciones, <br />
+                                        de eventos relacionados con caballos.<br />
                                         Mi rol durante pansantia fue <br />
                                         el de front-end bajo supervisión. <br />
                                         
@@ -131,10 +131,28 @@ function Proyecto () {
                             </button>
                         </div>
                     </div>
-                    <div className='w-72 border shadow-md p-4 rounded-lg'>
+                    <div className='w-72 border shadow-md p-4 rounded-lg relative'>
+                        { canirac && (
+                            <div className='bg-white inset-0 p-3 rounded-lg absolute z-10'>
+                                <div className='flex justify-between'>
+                                    <h1 className='text-lg'>Información</h1>
+                                    <button onClick={() => setCanirac(false)}>
+                                        <img className='w-6' src="./close.png" alt="" />
+                                    </button>
+                                </div>
+                                <div className='flex justify-center items-center mt-5 text-center border shadow-md rounded-lg'>
+                                    <p className='p-2'>
+                                        Este proyecto de registros, <br />
+                                        para restaurantes y relacinados.<br />
+                                        Mi rol durante pansantia fue <br />
+                                        el de front-end bajo supervisión. <br />
+                                    </p>
+                                </div>
+                            </div>
+                        )}
                         <div className='flex justify-between items-center'>
                             <h1>Canirac valle de toluca</h1>
-                            <button>
+                            <button onClick={() => setCanirac(true)}>
                                 <img className='w-6' src="./mas.png" alt="" />
                             </button>
                         </div>

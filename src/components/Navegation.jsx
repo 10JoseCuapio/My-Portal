@@ -92,15 +92,15 @@ function Navegation () {
                             <img className='w-7' src="./Descargar.png" alt="" />
                         </button>
                         <div className='flex gap-5'>
-                            <button>
+                            <a href='https://github.com/10JoseCuapio' target="_blank" rel="noopener noreferrer">
                                 <img className='w-10' src="github.png" alt="" />
-                            </button>
-                            <button>
-                                <img className='w-10' src="./correo.png" alt="" />
-                            </button>
-                            <button>
+                            </a>
+                            <a href="mailto:jose10cuapio@gmail.com">
+                                <img className="w-10" src="./correo.png" alt="Correo" />
+                            </a>
+                            <a href='https://www.linkedin.com/in/jose-jaime-cuapio-rodriguez-626366306/' target="_blank" rel="noopener noreferrer">
                                 <img className='w-9' src="./linkedin.png" alt="" />
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
