@@ -51,7 +51,7 @@ function My () {
             <h1 className='text-4xl'>Sobre mi...</h1>
             <div className='flex flex-col justify-center items-center gap-10 md:gap-16 md:flex-row'>
                 <div>
-                    <img className='w-28' src="./vite.svg" alt="" />
+                    <img  className='w-28 rounded-full' src="./foto.png" alt="" />
                 </div>
                 <div>
                     <p className='text-center md:text-start'>

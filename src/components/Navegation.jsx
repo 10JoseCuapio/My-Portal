@@ -83,7 +83,7 @@ function Navegation () {
                             </div>
                         </div>
                         <div className='flex justify-center mt-10 md:mt-0'>
-                            <img className='w-36' src="./vite.svg" alt="" />
+                            <img className='w-36 rounded-full' src="./foto.png" alt="" />
                         </div>
                     </div>
                     <div className='flex flex-col justify-center gap-5 mt-10'>
